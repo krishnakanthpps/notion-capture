@@ -7,11 +7,11 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Your Company',
-    siteDescription: 'Your company description.',
-    siteKeywords: 'your company keywords',
-    siteUrl: 'https://notioncapture.vercel.app',
+    siteTitle: 'VoiceMagic',
+    siteDescription: 'Voice Assistant for Notion.',
+    siteKeywords: 'Notion',
+    siteUrl: 'http://voicemagic.in',
     siteImagePreviewUrl: '/images/preview.png',
-    twitterHandle: '@your_handle'
+    twitterHandle: '@voicemagicHq'
   },
 })
